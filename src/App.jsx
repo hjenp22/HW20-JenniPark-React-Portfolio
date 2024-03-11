@@ -1,12 +1,15 @@
-import './App.css';
-import BucketList from './components/BucketList';
+import { Outlet } from "react-router-dom"
+import Header from "./components/Header"
+
 
 function App() {
+ 
   return (
-    <div className="bucket-app">
-      <BucketList />
-    </div>
-  );
+    <>
+      <Header />
+      <Outlet />
+    </>
+  )
 }
 
-export default App;
+export default App
