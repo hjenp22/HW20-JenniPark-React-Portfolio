@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import "../assets/css/Contact.css";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -63,7 +64,7 @@ export default function Contact() {
   };
 
   return (
-    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh" }}>
+    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
       <Row>
         <Col>
           <h1>Contact Form</h1>

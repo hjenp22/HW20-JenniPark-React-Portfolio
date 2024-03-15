@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import AboutMe from './pages/AboutMe.jsx'
 import Contact from './pages/Contact.jsx'
 import Resume from './pages/Resume.jsx'
+import Portfolio from './pages/Portfolio.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: 'resume',
         element: <Resume />
+      },
+      {
+        path: 'portfolio',
+        element: <Portfolio />
       },
     ]
 
