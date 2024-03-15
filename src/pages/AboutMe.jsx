@@ -15,7 +15,7 @@ export default function AboutMe() {
 
         <div className="px-3">
           <p>
-            Jenni Park, she/her pronouns, is a premed graduate from Saint Xavier
+            Jenni Park, is a premed graduate from Saint Xavier
             University, currently navigating Northwestern's programming bootcamp
             to fulfill her ambition of becoming a full-stack developer. Her
             journey is marked by a strong foundation in data analytics and
