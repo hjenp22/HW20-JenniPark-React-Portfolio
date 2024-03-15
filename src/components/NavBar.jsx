@@ -65,18 +65,17 @@ export default function NavBar() {
               <Link
                 to="/portfolio"
                 className="nav-link"
-                
               >
                 Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="contact" className="nav-link" onClick={handleLinkClick}>
+              <Link to="/contact" className="nav-link" onClick={handleLinkClick}>
                 Contact
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="resume" className="nav-link" onClick={handleLinkClick}>
+              <Link to="/resume" className="nav-link" onClick={handleLinkClick}>
                 Resume
               </Link>
             </li>
