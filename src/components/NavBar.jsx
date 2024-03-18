@@ -57,20 +57,21 @@ export default function NavBar() {
           <ul className="navbar-nav ms-auto">
             {/* Each link with click event handler */}
             <li className="nav-item">
-              <Link to="/about" className="nav-link" >
+              <Link to="/about" className="nav-link">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/portfolio"
-                className="nav-link"
-              >
+              <Link to="/portfolio" className="nav-link">
                 Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link" onClick={handleLinkClick}>
+              <Link
+                to="/contact"
+                className="nav-link"
+                onClick={handleLinkClick}
+              >
                 Contact
               </Link>
             </li>

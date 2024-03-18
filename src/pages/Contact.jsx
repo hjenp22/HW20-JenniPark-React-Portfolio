@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser, faEnvelope, faComment } from '@fortawesome/free-solid-svg-icons';
 import "../assets/css/Contact.css";
 
 export default function Contact() {
@@ -67,38 +69,41 @@ export default function Contact() {
     <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
       <Row>
         <Col>
-          <h1>Contact Form</h1>
+          <h1 className="text-center">I'll Contact You!</h1>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formName">
-              <Form.Label>Name:</Form.Label>
+              <Form.Label><FontAwesomeIcon icon={faUser} className="mr-2" />Name:</Form.Label>
               <Form.Control
                 type="text"
                 value={name}
                 onChange={handleNameChange}
                 onBlur={() => handleBlur("name")}
+                placeholder="Enter your name"
               />
               {nameError && <Form.Text className="text-danger">{nameError}</Form.Text>}
             </Form.Group>
 
             <Form.Group controlId="formEmail">
-              <Form.Label>Email:</Form.Label>
+              <Form.Label><FontAwesomeIcon icon={faEnvelope} className="mr-2" />Email:</Form.Label>
               <Form.Control
                 type="email"
                 value={email}
                 onChange={handleEmailChange}
                 onBlur={() => handleBlur("email")}
+                placeholder="Enter your email"
               />
               {emailError && <Form.Text className="text-danger">{emailError}</Form.Text>}
             </Form.Group>
 
             <Form.Group controlId="formMessage">
-              <Form.Label>Message:</Form.Label>
+              <Form.Label><FontAwesomeIcon icon={faComment} className="mr-2" />Message:</Form.Label>
               <Form.Control
                 as="textarea"
                 rows={3}
                 value={message}
                 onChange={handleMessageChange}
                 onBlur={() => handleBlur("message")}
+                placeholder="Enter your message"
               />
               {messageError && <Form.Text className="text-danger">{messageError}</Form.Text>}
             </Form.Group>
