@@ -1,16 +1,3 @@
-// import { Link } from "react-router-dom"
-// export default function Header(){
-//     return(
-//         <header>
-//             <h1>Jenni "Hyun-Ji" Park</h1>
-//             <nav>
-//                 <Link to='/'>Home</Link>
-//                 <Link to='/AboutMe'>About Me</Link>
-//             </nav>
-//         </header>
-//     )
-// }
-
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "../assets/css/NavBar.css"; //this wont thread

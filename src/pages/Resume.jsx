@@ -9,7 +9,7 @@ export default function Resume() {
   return (
     <div>
       <Container className="resume-container mt-5 mb-5">
-      <h1>Resume</h1>
+      <h3>Resume</h3>
         <p>
           <a href={resumeLink} target="_blank" rel="noopener noreferrer">
             <Button variant="primary" href={resumeLink} target="_blank" rel="noopener noreferrer">
@@ -20,10 +20,10 @@ export default function Resume() {
         <Row>
           <Col>
           <div className="content">
-              <h4><FontAwesomeIcon icon={faBriefcase} /> Work Experience</h4>
+              <h5><FontAwesomeIcon icon={faBriefcase} /> Work Experience</h5>
 
               <ul>
-                <h5>JDM Consulting and Associates | Consultant</h5>{" "}
+                <h6>JDM Consulting and Associates | Consultant</h6>{" "}
                 <ul>
                   <li>
                     Led 6-month client collaboration project for Python-based
@@ -53,7 +53,7 @@ export default function Resume() {
               </ul>
 
               <ul>
-                <h5>JPAIK | Database and Art Inventory Manager</h5>{" "}
+                <h6>JPAIK | Database and Art Inventory Manager</h6>{" "}
                 <ul>
                   <li>
                     Spearheaded the establishment and meticulous maintenance of
@@ -76,7 +76,7 @@ export default function Resume() {
               </ul>
 
               <ul>
-                <h5>JDM Consulting and Associates | Intern </h5>{" "}
+                <h6>JDM Consulting and Associates | Intern </h6>{" "}
                 <ul>
                   <li>
                     Conducted in-depth research, leading to an 80% improvement
@@ -109,7 +109,7 @@ export default function Resume() {
         <Row>
           <Col>
           <div className="content">
-              <h4><FontAwesomeIcon icon={faLaptopCode} /> Technical Skills</h4>
+              <h5><FontAwesomeIcon icon={faLaptopCode} /> Technical Skills</h5>
 
               <ul>
                 <h7>
@@ -184,7 +184,7 @@ export default function Resume() {
             </div>
 
             <div className="content">
-              <h4><FontAwesomeIcon icon={faGraduationCap} /> Education</h4>
+              <h5><FontAwesomeIcon icon={faGraduationCap} /> Education</h5>
               
               <h7>
                 <em>Northwestern University | Chicago IL</em>

@@ -1,0 +1,30 @@
+.project-name {
+    color: lightseagreen;
+    text-shadow: 2px 2px 0 grey;
+    width: 100%; /* Allow the name to take up 100% width */
+    white-space: wrap;
+  }
+  
+  .project-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .project-links a:hover {
+    color: #007bff;
+  }
+  
+  .project-container {
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 20px;
+    height: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .project-container:hover {
+    transform: scale(1.05); /* Increase the size on hover */
+  }
