@@ -20,21 +20,7 @@ The objective of this assignment was to create a portfolio utilizing React and V
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)
 
-## ORM E-Commerce For Backend Step by Step! <!--or application steps to each their own -->
-1. First open up db and connect to db 
-![db](assets/db.png)
-2. Open integrated terminal and run npm i
-3. In terminal npm run seed to run all seeds
-![runseed](assets/runseed.png)
-4. Then run nodemon server.js
-5. Make sure it connects to LocalHost:3001
-![nodemon](assets/nodemon%20server.png)
-6. Then open Insomnia
-
-![category](assets/category.png)
-![tag](assets/tag.png)
-![product](assets/product.png)
-
+## Usage
 ### Walkthrough Video
 Walkthrough Video Link: [How-To](https://drive.google.com/file/d/1KqNT_sImfHW-jrCKr5_KgviMQl9y-p4O/view)
 

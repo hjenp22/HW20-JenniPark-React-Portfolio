@@ -1,14 +1,16 @@
 import { Outlet } from "react-router-dom"
-import Header from "./components/NavBar"
-
+import Nav from "./components/NavBar"
+import Footer from "./components/Footer";
 
 function App() {
  
   return (
     <>
-    
-      <Header />
-      <Outlet />
+    <Nav />
+      <main className="mx-3">
+        <Outlet />
+      </main>
+      <Footer />
     </>
   )
 }
