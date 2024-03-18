@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import "../pages/Resume.css";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBriefcase, faGraduationCap, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 export default function Resume() {
   const resumeLink =
@@ -8,16 +9,18 @@ export default function Resume() {
   return (
     <div>
       <Container className="resume-container mt-5 mb-5">
-        <h1>Resume</h1>
+      <h1>Resume</h1>
         <p>
           <a href={resumeLink} target="_blank" rel="noopener noreferrer">
+            <Button variant="primary" href={resumeLink} target="_blank" rel="noopener noreferrer">
             View Resume
+            </Button>
           </a>
         </p>
         <Row>
           <Col>
-            <div className="content">
-              <h4>Work Experience</h4>
+          <div className="content">
+              <h4><FontAwesomeIcon icon={faBriefcase} /> Work Experience</h4>
 
               <ul>
                 <h5>JDM Consulting and Associates | Consultant</h5>{" "}
@@ -105,8 +108,8 @@ export default function Resume() {
         </Row>
         <Row>
           <Col>
-            <div className="content">
-              <h4>Technical Skills</h4>
+          <div className="content">
+              <h4><FontAwesomeIcon icon={faLaptopCode} /> Technical Skills</h4>
 
               <ul>
                 <h7>
@@ -181,7 +184,8 @@ export default function Resume() {
             </div>
 
             <div className="content">
-              <h4> Education</h4>
+              <h4><FontAwesomeIcon icon={faGraduationCap} /> Education</h4>
+              
               <h7>
                 <em>Northwestern University | Chicago IL</em>
               </h7>
