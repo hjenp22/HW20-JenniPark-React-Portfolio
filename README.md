@@ -9,7 +9,7 @@
 
 ## Description 
 The objective of this assignment was to create a portfolio utilizing React and Vite. This portfolio serves as a platform for showcasing my work and projects, facilitating job applications, and fostering collaboration with fellow developers. The application has been successfully deployed to Netlify.
-
+![!\[Alt text\](image.png)](/src/assets/images/Screen%20Shot%202024-03-18%20at%2011.44.53%20AM.png)
 ## Built With
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com/)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -22,7 +22,7 @@ The objective of this assignment was to create a portfolio utilizing React and V
 
 ## Usage
 ### Walkthrough Video
-Walkthrough Video Link: [How-To](https://drive.google.com/file/d/1KqNT_sImfHW-jrCKr5_KgviMQl9y-p4O/view)
+Walkthrough Video Link: [How-To](https://www.loom.com/share/ab865b313f524cfe960d216b93dbd28a?sid=a61b2f78-046d-46bb-b012-9fe9fe543688)
 
 
 <!-- CONTRIBUTING -->
